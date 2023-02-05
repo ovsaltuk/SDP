@@ -1,0 +1,25 @@
+.dropdown {
+  &__header {
+    display: flex;
+  }
+  &__title {
+    margin-right: 4px;
+  }
+  &__current-value {
+    color: $color-primary;
+    & svg {
+      width: 8px;
+      height: 8px;
+      fill: currentColor;
+    }
+  }
+  &__list{
+    
+    &_hide{
+      display: none;
+    }
+    &_open{
+      display: block;
+    }
+  }
+}

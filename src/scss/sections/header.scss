@@ -1,0 +1,21 @@
+.header {
+
+}
+
+.dropdown_category {
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  min-height: 60px;
+  max-width: 300px;
+  border: 2px solid $color-gray-light;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+}
+
+.dropdown__current-value_category, .dropdown__header_category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,5 +1,6 @@
 .header {
-
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .dropdown_category {
@@ -19,3 +20,31 @@
   justify-content: space-between;
   width: 100%;
 }
+
+.dropdown_region {
+  grid-column: span 2;
+}
+.header__phone-link {
+  grid-column: span 2;
+}
+.header__list-link {
+  grid-column: span 8;
+}
+.header__logo-link {
+  grid-column: span 2;
+}
+.header__nav {
+  grid-column: span 10;
+}
+.header__search {
+  grid-column: span 7;
+}
+.dropdown_category {
+  grid-column: span 3;
+}
+.header__account {
+  grid-column: span 2;
+}
+
+
+
